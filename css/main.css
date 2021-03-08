@@ -1,7 +1,9 @@
 html {
   box-sizing: border-box;
 }
-
+*{
+  box-sizing: inheirt;
+}
 body {
   background-color: #fdf6e3;
 }
@@ -56,4 +58,20 @@ ol li:last-child {
 
 .types li:nth-child(even) {
   background-color: #586e75;
+}
+
+.types li:nth-child(3) {
+  background-color: #d04b16;
+}
+
+.types li:nth-child(6) {
+  background-color: #d04b16;
+}
+
+.types li:nth-child(9) {
+  background-color: #d04b16;
+}
+
+.types li:nth-child(12) {
+  background-color: #d04b16;
 }
