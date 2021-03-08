@@ -1,5 +1,9 @@
 html {
   box-sizing: border-box;
+  background-color: #d04b16;
+}
+*, *//before, *//after {
+  box-sizing: inherit;
 }
 body {
   background-color: #fdf6e3;
@@ -22,7 +26,7 @@ nav > ul {
 .wrapper > .dfn {
   background-color: #b58900;
 }
-div p+strong {
+div p+ strong {
   color: #fff;
 }
 a:not(.no-highlight) {
